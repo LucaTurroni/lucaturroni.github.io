@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.lucaturroni.twa",
+        "sha256_cert_fingerprints": ["59:FB:D2:5F:21:FE:1A:81:EE:26:AB:CA:5E:36:83:43:0A:39:55:6A:2A:4B:A8:A5:0E:99:AC:92:20:01:A4:65"]
+      }
+    }]
