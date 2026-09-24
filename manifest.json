@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "Visual Schedule",
+  "short_name": "Visual Schedule",
+  "description": "Visual schedule for planning daily activities, designed for landscape use on smartphones and tablets.",
+  "version": "3.3.0",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#4A9EDB",
+  "theme_color": "#4A9EDB",
+  "lang": "en",
+  "categories": ["education", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Use Schedule",
+      "short_name": "Use Schedule",
+      "description": "Start a session right away, skipping the Home screen",
+      "url": "./index.html?action=use",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
